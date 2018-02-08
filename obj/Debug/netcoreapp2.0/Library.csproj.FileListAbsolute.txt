@@ -1,0 +1,14 @@
+D:\Coding\C#\Library\bin\Debug\netcoreapp2.0\Library.deps.json
+D:\Coding\C#\Library\bin\Debug\netcoreapp2.0\Library.runtimeconfig.json
+D:\Coding\C#\Library\bin\Debug\netcoreapp2.0\Library.runtimeconfig.dev.json
+D:\Coding\C#\Library\bin\Debug\netcoreapp2.0\Library.dll
+D:\Coding\C#\Library\obj\Debug\netcoreapp2.0\Library.csprojResolveAssemblyReference.cache
+D:\Coding\C#\Library\obj\Debug\netcoreapp2.0\Library.csproj.CoreCompileInputs.cache
+D:\Coding\C#\Library\obj\Debug\netcoreapp2.0\Library.AssemblyInfoInputs.cache
+D:\Coding\C#\Library\obj\Debug\netcoreapp2.0\Library.AssemblyInfo.cs
+D:\Coding\C#\Library\bin\Debug\netcoreapp2.0\Library.pdb
+D:\Coding\C#\Library\bin\Debug\netcoreapp2.0\LibraryData.dll
+D:\Coding\C#\Library\bin\Debug\netcoreapp2.0\LibraryData.pdb
+D:\Coding\C#\Library\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+D:\Coding\C#\Library\obj\Debug\netcoreapp2.0\Library.dll
+D:\Coding\C#\Library\obj\Debug\netcoreapp2.0\Library.pdb

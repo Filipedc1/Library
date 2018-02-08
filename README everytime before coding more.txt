@@ -1,0 +1,1 @@
+tutorial part 1 paused at 30:52 minutes
