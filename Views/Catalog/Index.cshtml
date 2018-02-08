@@ -1,0 +1,37 @@
+﻿@model Library.ViewModels.Catalog.AssetIndexViewModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="assets">
+    <h3>Library Catalog</h3>
+    <div id="assetsTable">
+        <table class="table table-condensed" id="catalogIndexTable">
+            <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Title</th>
+                    <th>Author / Director</th>
+                    <th>Book Index Number</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var asset in Model.Assets)
+                {
+                    <tr class="assetRow">
+                        <td class="">
+                            <a asp-controller="Catalog" asp-action="Detail" asp-route-id="@asset.Id">
+                                <img src="@asset.ImageUrl" class="imageCell" />
+                            </a>
+                        </td>
+                        <td class="">@asset.Title</td>
+                        <td class="">@asset.AuthorOrDirector</td>
+                        <td class="">@asset.bookIndex</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+

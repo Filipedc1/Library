@@ -12,6 +12,7 @@ using Library.Data;
 using Library.Models;
 using Library.Services;
 using LibraryData;
+using LibraryServices;
 
 namespace Library
 {
@@ -39,8 +40,16 @@ namespace Library
 
             services.AddMvc();
 
-            
+
+            //
+            services.AddSingleton(Configuration);
+
+            //used to connect to the sql database
             services.AddDbContext<LibraryContext>(options => options.UseSqlServer(Configuration.GetConnectionString("LibraryConnection")));
+
+            //allows LibraryAssetService to get injected into the Catalog controller anytime it is requesting the ILibraryAsset interface
+            services.AddScoped<ILibraryAsset, LibraryAssetService>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

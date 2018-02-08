@@ -1,0 +1,11 @@
+D:\Coding\C#\Library\LibraryServices\bin\Debug\netcoreapp2.0\LibraryServices.deps.json
+D:\Coding\C#\Library\LibraryServices\bin\Debug\netcoreapp2.0\LibraryServices.dll
+D:\Coding\C#\Library\LibraryServices\bin\Debug\netcoreapp2.0\LibraryServices.pdb
+D:\Coding\C#\Library\LibraryServices\bin\Debug\netcoreapp2.0\LibraryData.dll
+D:\Coding\C#\Library\LibraryServices\bin\Debug\netcoreapp2.0\LibraryData.pdb
+D:\Coding\C#\Library\LibraryServices\obj\Debug\netcoreapp2.0\LibraryServices.csprojResolveAssemblyReference.cache
+D:\Coding\C#\Library\LibraryServices\obj\Debug\netcoreapp2.0\LibraryServices.csproj.CoreCompileInputs.cache
+D:\Coding\C#\Library\LibraryServices\obj\Debug\netcoreapp2.0\LibraryServices.AssemblyInfoInputs.cache
+D:\Coding\C#\Library\LibraryServices\obj\Debug\netcoreapp2.0\LibraryServices.AssemblyInfo.cs
+D:\Coding\C#\Library\LibraryServices\obj\Debug\netcoreapp2.0\LibraryServices.dll
+D:\Coding\C#\Library\LibraryServices\obj\Debug\netcoreapp2.0\LibraryServices.pdb
