@@ -9,3 +9,14 @@ D:\Coding\C#\Library\LibraryServices\obj\Debug\netcoreapp2.0\LibraryServices.Ass
 D:\Coding\C#\Library\LibraryServices\obj\Debug\netcoreapp2.0\LibraryServices.AssemblyInfo.cs
 D:\Coding\C#\Library\LibraryServices\obj\Debug\netcoreapp2.0\LibraryServices.dll
 D:\Coding\C#\Library\LibraryServices\obj\Debug\netcoreapp2.0\LibraryServices.pdb
+C:\Users\QA\Documents\test\Library\LibraryServices\bin\Debug\netcoreapp2.0\LibraryServices.deps.json
+C:\Users\QA\Documents\test\Library\LibraryServices\bin\Debug\netcoreapp2.0\LibraryServices.dll
+C:\Users\QA\Documents\test\Library\LibraryServices\bin\Debug\netcoreapp2.0\LibraryServices.pdb
+C:\Users\QA\Documents\test\Library\LibraryServices\bin\Debug\netcoreapp2.0\LibraryData.dll
+C:\Users\QA\Documents\test\Library\LibraryServices\bin\Debug\netcoreapp2.0\LibraryData.pdb
+C:\Users\QA\Documents\test\Library\LibraryServices\obj\Debug\netcoreapp2.0\LibraryServices.csprojResolveAssemblyReference.cache
+C:\Users\QA\Documents\test\Library\LibraryServices\obj\Debug\netcoreapp2.0\LibraryServices.csproj.CoreCompileInputs.cache
+C:\Users\QA\Documents\test\Library\LibraryServices\obj\Debug\netcoreapp2.0\LibraryServices.AssemblyInfoInputs.cache
+C:\Users\QA\Documents\test\Library\LibraryServices\obj\Debug\netcoreapp2.0\LibraryServices.AssemblyInfo.cs
+C:\Users\QA\Documents\test\Library\LibraryServices\obj\Debug\netcoreapp2.0\LibraryServices.dll
+C:\Users\QA\Documents\test\Library\LibraryServices\obj\Debug\netcoreapp2.0\LibraryServices.pdb

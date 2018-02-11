@@ -10,3 +10,15 @@ D:\Coding\C#\Library\obj\Debug\netcoreapp2.0\Library.csproj.CoreCompileInputs.ca
 D:\Coding\C#\Library\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
 D:\Coding\C#\Library\obj\Debug\netcoreapp2.0\Library.dll
 D:\Coding\C#\Library\obj\Debug\netcoreapp2.0\Library.pdb
+C:\Users\QA\Documents\test\Library\bin\Debug\netcoreapp2.0\Library.deps.json
+C:\Users\QA\Documents\test\Library\bin\Debug\netcoreapp2.0\Library.runtimeconfig.json
+C:\Users\QA\Documents\test\Library\bin\Debug\netcoreapp2.0\Library.runtimeconfig.dev.json
+C:\Users\QA\Documents\test\Library\bin\Debug\netcoreapp2.0\Library.dll
+C:\Users\QA\Documents\test\Library\bin\Debug\netcoreapp2.0\Library.pdb
+C:\Users\QA\Documents\test\Library\bin\Debug\netcoreapp2.0\LibraryData.dll
+C:\Users\QA\Documents\test\Library\bin\Debug\netcoreapp2.0\LibraryData.pdb
+C:\Users\QA\Documents\test\Library\obj\Debug\netcoreapp2.0\Library.csprojResolveAssemblyReference.cache
+C:\Users\QA\Documents\test\Library\obj\Debug\netcoreapp2.0\Library.csproj.CoreCompileInputs.cache
+C:\Users\QA\Documents\test\Library\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\QA\Documents\test\Library\obj\Debug\netcoreapp2.0\Library.dll
+C:\Users\QA\Documents\test\Library\obj\Debug\netcoreapp2.0\Library.pdb

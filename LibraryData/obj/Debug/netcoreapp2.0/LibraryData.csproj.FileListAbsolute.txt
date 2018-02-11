@@ -7,3 +7,12 @@ D:\Coding\C#\Library\LibraryData\obj\Debug\netcoreapp2.0\LibraryData.AssemblyInf
 D:\Coding\C#\Library\LibraryData\obj\Debug\netcoreapp2.0\LibraryData.AssemblyInfo.cs
 D:\Coding\C#\Library\LibraryData\obj\Debug\netcoreapp2.0\LibraryData.dll
 D:\Coding\C#\Library\LibraryData\obj\Debug\netcoreapp2.0\LibraryData.pdb
+C:\Users\QA\Documents\test\Library\LibraryData\bin\Debug\netcoreapp2.0\LibraryData.deps.json
+C:\Users\QA\Documents\test\Library\LibraryData\bin\Debug\netcoreapp2.0\LibraryData.dll
+C:\Users\QA\Documents\test\Library\LibraryData\bin\Debug\netcoreapp2.0\LibraryData.pdb
+C:\Users\QA\Documents\test\Library\LibraryData\obj\Debug\netcoreapp2.0\LibraryData.csprojResolveAssemblyReference.cache
+C:\Users\QA\Documents\test\Library\LibraryData\obj\Debug\netcoreapp2.0\LibraryData.csproj.CoreCompileInputs.cache
+C:\Users\QA\Documents\test\Library\LibraryData\obj\Debug\netcoreapp2.0\LibraryData.AssemblyInfoInputs.cache
+C:\Users\QA\Documents\test\Library\LibraryData\obj\Debug\netcoreapp2.0\LibraryData.AssemblyInfo.cs
+C:\Users\QA\Documents\test\Library\LibraryData\obj\Debug\netcoreapp2.0\LibraryData.dll
+C:\Users\QA\Documents\test\Library\LibraryData\obj\Debug\netcoreapp2.0\LibraryData.pdb

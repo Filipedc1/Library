@@ -13147,7 +13147,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Filipe\\.nuget\\packages\\": {},
+    "C:\\Users\\QA\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
@@ -13157,18 +13157,18 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\Coding\\C#\\Library\\Library.csproj",
+      "projectUniqueName": "C:\\Users\\QA\\Documents\\test\\Library\\Library.csproj",
       "projectName": "Library",
-      "projectPath": "D:\\Coding\\C#\\Library\\Library.csproj",
-      "packagesPath": "C:\\Users\\Filipe\\.nuget\\packages\\",
-      "outputPath": "D:\\Coding\\C#\\Library\\obj\\",
+      "projectPath": "C:\\Users\\QA\\Documents\\test\\Library\\Library.csproj",
+      "packagesPath": "C:\\Users\\QA\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\QA\\Documents\\test\\Library\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Filipe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\QA\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
@@ -13182,8 +13182,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "D:\\Coding\\C#\\Library\\LibraryData\\LibraryData.csproj": {
-              "projectPath": "D:\\Coding\\C#\\Library\\LibraryData\\LibraryData.csproj"
+            "C:\\Users\\QA\\Documents\\test\\Library\\LibraryData\\LibraryData.csproj": {
+              "projectPath": "C:\\Users\\QA\\Documents\\test\\Library\\LibraryData\\LibraryData.csproj"
             }
           }
         }
