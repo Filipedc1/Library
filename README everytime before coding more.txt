@@ -1,1 +1,0 @@
-tutorial part 3 paused at 15:20
