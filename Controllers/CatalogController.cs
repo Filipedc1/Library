@@ -42,5 +42,31 @@ namespace Library.Controllers
 
             return View(vM);
         }
+
+        public IActionResult Detail(int id)
+        {
+            var asset = _assets.GetById(id);
+
+            if (asset == null)
+            {
+                return BadRequest();
+            }
+
+            var vM = new AssetDetailViewModel()
+            {
+                AssetId = asset.Id,
+                Title = asset.Title,
+                Year = asset.Year,
+                Cost = asset.Cost,
+                Status = asset.Status.Name,
+                ImageURL = asset.ImageURL,
+                AuthorOrDirector = _assets.GetAuthorOrDirector(asset.Id),
+                CurrentLocation = _assets.GetCurrentLocation(asset.Id).Name,
+                bookIndex = _assets.GetBookIndex(asset.Id),
+                ISBN = _assets.GetISBN(asset.Id)
+            };
+
+            return View(vM);
+        }
     }
 }
