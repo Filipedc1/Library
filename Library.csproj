@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="ReadME before coding.txt" />
     <None Remove="README everytime before coding more.txt" />
   </ItemGroup>
 

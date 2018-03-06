@@ -39,16 +39,14 @@ namespace Library
             services.AddTransient<IEmailSender, EmailSender>();
 
             services.AddMvc();
-
-
-            //
             services.AddSingleton(Configuration);
-
-            //used to connect to the sql database
-            services.AddDbContext<LibraryContext>(options => options.UseSqlServer(Configuration.GetConnectionString("LibraryConnection")));
 
             //allows LibraryAssetService to get injected into the Catalog controller anytime it is requesting the ILibraryAsset interface
             services.AddScoped<ILibraryAsset, LibraryAssetService>();
+            services.AddScoped<ICheckout, CheckoutService>();
+
+            //used to connect to the sql database
+            services.AddDbContext<LibraryContext>(options => options.UseSqlServer(Configuration.GetConnectionString("LibraryConnection")));
 
         }
 
