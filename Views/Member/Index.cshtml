@@ -1,0 +1,42 @@
+﻿@model Library.ViewModels.Member.MemberIndexViewModel
+@{
+    ViewData["Title"] = "Member Index";
+}
+
+<head>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+</head>
+
+
+<h3>@ViewBag.Title</h3>
+<div id="memberIndex">
+    <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp customTable" id="memberIndexTable">
+        <thead>
+            <tr>
+                <th>Profile Link</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Library Card Id</th>
+                <th>Overdue Fees</th>
+                <th>Home Library</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var member in Model.Members)
+            {
+                <tr class="assetRow">
+                    <td>
+                        <a asp-controller="Member" asp-action="Detail" asp-route-id="@member.Id">
+                            <i class="fas fa-user"></i>
+                        </a>
+                    </td>
+                    <td>@member.FirstName</td>
+                    <td>@member.LastName</td>
+                    <td>@member.LibraryCardId</td>
+                    <td>@member.OverdueFees</td>
+                    <td>@member.HomeLibraryBranch</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

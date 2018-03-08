@@ -44,6 +44,7 @@ namespace Library
             //allows LibraryAssetService to get injected into the Catalog controller anytime it is requesting the ILibraryAsset interface
             services.AddScoped<ILibraryAsset, LibraryAssetService>();
             services.AddScoped<ICheckout, CheckoutService>();
+            services.AddScoped<IMember, MemberService>();
 
             //used to connect to the sql database
             services.AddDbContext<LibraryContext>(options => options.UseSqlServer(Configuration.GetConnectionString("LibraryConnection")));
