@@ -1,7 +1,9 @@
 ﻿using LibraryData;
 using LibraryData.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace LibraryServices
 {
@@ -16,22 +18,28 @@ namespace LibraryServices
 
         public void Add(LibraryBranch newBranch)
         {
-            _context.LibraryBranches.Add(newBranch);
+            _context.Add(newBranch);
+            _context.SaveChanges();
         }
 
         public LibraryBranch Get(int branchId)
         {
-            throw new NotImplementedException();
+            return GetAll().FirstOrDefault(b => b.Id == branchId);
         }
 
         public IEnumerable<LibraryBranch> GetAll()
         {
-            throw new NotImplementedException();
+            return _context.LibraryBranches
+                .Include(b => b.Members)
+                .Include(b => b.LibraryAssets);
         }
 
         public IEnumerable<LibraryAsset> GetAssets(int branchId)
         {
-            throw new NotImplementedException();
+            return _context.LibraryBranches
+                .Include(b => b.LibraryAssets)
+                .FirstOrDefault(b => b.Id == branchId)
+                .LibraryAssets;
         }
 
         public IEnumerable<string> GetBranchHours(int branchId)
