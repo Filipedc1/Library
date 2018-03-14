@@ -1,0 +1,4 @@
+add:
+
+- use authentication system where managers login etc
+- in Library catalog, implement a search feature and pagination

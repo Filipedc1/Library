@@ -13147,28 +13147,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\QA\\.nuget\\packages\\": {},
+    "C:\\Users\\Filipe\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "C:\\Users\\QA\\Documents\\test\\Library\\Library.csproj",
+      "projectUniqueName": "D:\\Coding\\C#\\Library\\Library.csproj",
       "projectName": "Library",
-      "projectPath": "C:\\Users\\QA\\Documents\\test\\Library\\Library.csproj",
-      "packagesPath": "C:\\Users\\QA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\QA\\Documents\\test\\Library\\obj\\",
+      "projectPath": "D:\\Coding\\C#\\Library\\Library.csproj",
+      "packagesPath": "C:\\Users\\Filipe\\.nuget\\packages\\",
+      "outputPath": "D:\\Coding\\C#\\Library\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\QA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Filipe\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
@@ -13182,8 +13179,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\QA\\Documents\\test\\Library\\LibraryData\\LibraryData.csproj": {
-              "projectPath": "C:\\Users\\QA\\Documents\\test\\Library\\LibraryData\\LibraryData.csproj"
+            "D:\\Coding\\C#\\Library\\LibraryData\\LibraryData.csproj": {
+              "projectPath": "D:\\Coding\\C#\\Library\\LibraryData\\LibraryData.csproj"
             }
           }
         }

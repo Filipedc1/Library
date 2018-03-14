@@ -1,0 +1,30 @@
+﻿@model Library.ViewModels.Branch.BranchIndexViewModel
+@{
+    ViewData["Title"] = "Branch Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>@ViewBag.Title</h3>
+<div id="branchIndex">
+    <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp customTable" id="branchIndexTable">
+        <thead>
+            <tr>
+                <th>Branch Name</th>
+                <th>Open Now</th>
+                <th>Number Of Assets</th>
+                <th>Number of Members</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var branch in Model.Branches)
+            {
+                <tr>
+                    <td class="strongTd"><a asp-controller="Branch" asp-action="Detail" asp-route-id="@branch.Id">@branch.Name</a></td>
+                    <td>@branch.IsOpen</td>
+                    <td>@branch.NumberOfAssets</td>
+                    <td>@branch.NumberOfMembers</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

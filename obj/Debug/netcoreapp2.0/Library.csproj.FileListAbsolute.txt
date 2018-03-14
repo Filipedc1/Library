@@ -23,3 +23,4 @@ C:\Users\QA\Documents\test\Library\obj\Debug\netcoreapp2.0\UserSecretsAssemblyIn
 C:\Users\QA\Documents\test\Library\obj\Debug\netcoreapp2.0\Library.dll
 C:\Users\QA\Documents\test\Library\obj\Debug\netcoreapp2.0\Library.pdb
 C:\Users\QA\Documents\test\Library\obj\Debug\netcoreapp2.0\Library.csproj.CopyComplete
+D:\Coding\C#\Library\obj\Debug\netcoreapp2.0\Library.csproj.CopyComplete

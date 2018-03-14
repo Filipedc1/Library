@@ -45,6 +45,7 @@ namespace Library
             services.AddScoped<ILibraryAsset, LibraryAssetService>();
             services.AddScoped<ICheckout, CheckoutService>();
             services.AddScoped<IMember, MemberService>();
+            services.AddScoped<ILibraryBranch, LibraryBranchService>();
 
             //used to connect to the sql database
             services.AddDbContext<LibraryContext>(options => options.UseSqlServer(Configuration.GetConnectionString("LibraryConnection")));
